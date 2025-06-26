@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Service() {
   return (
@@ -14,14 +15,17 @@ export default function Service() {
                     <p className="text-sm font-semibold text-gray-600 tracking-[0.15em] ml-0.5">MECHANICAL</p>
                 </span>
                 <div id="nav-links" className="hidden lg:flex items-center space-x-8">
-                    <span className="text-gray-600 font-medium hover:text-brand-orange transition-colors cursor-pointer">Home</span>
-                    <span className="text-brand-orange font-semibold border-b-2 border-brand-orange cursor-pointer">Services</span>
-                    <span className="text-gray-600 font-medium hover:text-brand-orange transition-colors cursor-pointer">About Us</span>
-                    <span className="text-gray-600 font-medium hover:text-brand-orange transition-colors cursor-pointer">Contact</span>
+                    <Link href="/" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer">
+                        Home
+                    </Link>
+                    <Link href="/service" className="text-brand-orange font-bold border-b-2 border-brand-orange pb-1 cursor-pointer" >Services</Link>
+                    <Link href="/about-us" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer" >About Us</Link>
+                    <Link href="/contact-us" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer">Contact</Link>
                 </div>
-                <span className="hidden lg:inline-block bg-gradient-to-r from-brand-orange to-brand-yellow text-white font-bold py-3 px-6 rounded-full shadow-lg hover:scale-105 transition-transform cursor-pointer" id="cta-button-header">
-                    Get a Free Quote
-                </span>
+                <Link href="/contact"
+                     className="hidden lg:inline-block bg-orange-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer" id="cta-button-header">
+                        Get a Free Quote
+                </Link>
                 <button id="mobile-menu-button" className="lg:hidden text-gray-700">
                     <i className="text-2xl" data-fa-i2svg=""><svg className="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></i>
                 </button>
@@ -93,7 +97,7 @@ export default function Service() {
 
             <section id="cta-section" className="bg-gray-100">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                    <div className="bg-gradient-to-r from-brand-green to-brand-cyan p-8 sm:p-12 rounded-2xl shadow-xl text-center">
+                    <div className="bg-cyan-400 p-8 sm:p-12 rounded-2xl shadow-xl text-center">
                         <h2 id="cta-title" className="text-3xl font-bold text-white">Ready to Improve Your Comfort?</h2>
                         <p id="cta-subtitle" className="text-white mt-2 max-w-2xl mx-auto">Contact us today for a free, no-obligation estimate on any of our HVAC or plumbing services. Our team is ready to help!</p>
                         <span className="mt-8 inline-block bg-white text-brand-orange font-bold py-4 px-8 rounded-full shadow-lg hover:bg-gray-100 hover:scale-105 transition-all cursor-pointer" id="cta-button-main">

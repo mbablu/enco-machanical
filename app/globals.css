@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --tw-gradient-to-position: ;
 }
 
 @theme inline {
@@ -39,4 +40,30 @@ body {
 .text-brand-orange {
     --tw-text-opacity: 1;
     color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+
+.clipLeft {
+  clip-path: ellipse(150% 100% at 0% 50%);
+}
+
+.clipRight {
+  clip-path: ellipse(100% 100% at 100% 50%);
+}
+
+.to-brand-yellow {
+    --tw-gradient-to: #facc15 var(--tw-gradient-to-position);
+}
+.from-brand-orange {
+    --tw-gradient-from: #f97316 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(249 115 22 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-brand-orange {
+  --tw-gradient-from: #f97316 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(249 115 22 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
