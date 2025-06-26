@@ -9,10 +9,11 @@ export default function AboutUs() {
             <header id="header" className="bg-white shadow-md sticky top-0 z-50">
                 <nav id="navbar" className="container mx-auto px-6 py-3 flex justify-between items-center">
                     <div id="logo-container" className="flex flex-col items-start">
-                        <div className="text-3xl font-bold tracking-wider">
+                        {/* <div className="text-3xl font-bold tracking-wider">
                             <span className="text-green-500">E</span><span className="text-orange-500">N</span><span className="text-green-500">C</span><span className="text-orange-500">O</span>
                         </div>
-                        <p className="text-sm font-semibold text-gray-700 tracking-[0.15em] ml-0.5">MECHANICAL</p>
+                        <p className="text-sm font-semibold text-gray-700 tracking-[0.15em] ml-0.5">MECHANICAL</p> */}
+                        <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link>
                     </div>
                     <div id="nav-links" className="hidden md:flex items-center space-x-8">
                         <Link href="/" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer">

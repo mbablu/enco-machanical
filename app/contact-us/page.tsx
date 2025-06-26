@@ -11,10 +11,11 @@ export default function ContactUs() {
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex justify-between items-center py-4">
                             <div id="logo-section" className="flex flex-col items-start">
-                                <div className="text-4xl font-bold tracking-wider">
+                                {/* <div className="text-4xl font-bold tracking-wider">
                                     <span className="text-green-500">E</span><span className="text-orange-500">N</span><span className="text-green-500">C</span><span className="text-orange-500">O</span>
                                 </div>
-                                <p className="text-lg font-semibold text-gray-700 tracking-[0.15em] ml-0.5">MECHANICAL</p>
+                                <p className="text-lg font-semibold text-gray-700 tracking-[0.15em] ml-0.5">MECHANICAL</p> */}
+                                <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link>
                             </div>
                             <nav id="main-navigation" className="hidden md:flex items-center space-x-8">
                                 <Link href="/" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer">

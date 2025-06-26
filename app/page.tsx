@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,10 +12,11 @@ export default function Home() {
                 {/* Left Column  */}
                 <aside id="company-info-sidebar" className="lg:col-span-4 space-y-8 mt-16">
                     <div id="logo-section" className="flex flex-col items-start">
-                        <div className="text-6xl font-bold tracking-wider">
+                        {/* <div className="text-6xl font-bold tracking-wider">
                             <span className="text-green-500">E</span><span className="text-orange-500">N</span><span className="text-green-500">C</span><span className="text-orange-500">O</span>
                         </div>
-                        <p className="text-2xl font-semibold text-gray-700 tracking-[0.2em] ml-1">MECHANICAL</p>
+                        <p className="text-2xl font-semibold text-gray-700 tracking-[0.2em] ml-1">MECHANICAL</p> */}
+                        <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link>
                     </div>
 
                     <div id="slogan-banner" className="p-1 rounded-full bg-gradient-to-r from-cyan-400 to-yellow-300 shadow-lg">

@@ -9,10 +9,11 @@ export default function Service() {
         <header id="header" className="bg-white/95 backdrop-blur-sm sticky top-0 z-50 shadow-md">
             <nav id="navbar" className="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
                 <span className="flex flex-col items-start cursor-pointer" id="logo-link">
-                    <div className="text-3xl font-bold tracking-wider">
+                    {/* <div className="text-3xl font-bold tracking-wider">
                         <span className="text-brand-green">E</span><span className="text-brand-orange">N</span><span className="text-brand-green">C</span><span className="text-brand-orange">O</span>
                     </div>
-                    <p className="text-sm font-semibold text-gray-600 tracking-[0.15em] ml-0.5">MECHANICAL</p>
+                    <p className="text-sm font-semibold text-gray-600 tracking-[0.15em] ml-0.5">MECHANICAL</p> */}
+                    <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link>
                 </span>
                 <div id="nav-links" className="hidden lg:flex items-center space-x-8">
                     <Link href="/" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer">
