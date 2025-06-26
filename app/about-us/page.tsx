@@ -119,10 +119,11 @@ export default function AboutUs() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div id="footer-about" className="md:col-span-1">
                             <div id="footer-logo-container" className="flex flex-col items-start mb-4">
-                                <div className="text-3xl font-bold tracking-wider">
+                                {/* <div className="text-3xl font-bold tracking-wider">
                                     <span className="text-green-500">E</span><span className="text-orange-500">N</span><span className="text-green-500">C</span><span className="text-orange-500">O</span>
                                 </div>
-                                <p className="text-sm font-semibold text-gray-400 tracking-[0.15em] ml-0.5">MECHANICAL</p>
+                                <p className="text-sm font-semibold text-gray-400 tracking-[0.15em] ml-0.5">MECHANICAL</p> */}
+                                <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link>
                             </div>
                             <p className="text-sm">A reliable HVAC and Plumbing solution provider that you can trust.</p>
                         </div>

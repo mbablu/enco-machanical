@@ -114,10 +114,11 @@ export default function Service() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div id="footer-about" className="md:col-span-2">
                         <span className="flex flex-col items-start mb-4 cursor-pointer" id="logo-link-footer">
-                            <div className="text-3xl font-bold tracking-wider">
+                            {/* <div className="text-3xl font-bold tracking-wider">
                                 <span className="text-brand-green">E</span><span className="text-brand-orange">N</span><span className="text-brand-green">C</span><span className="text-brand-orange">O</span>
                             </div>
-                            <p className="text-sm font-semibold text-gray-400 tracking-[0.15em] ml-0.5">MECHANICAL</p>
+                            <p className="text-sm font-semibold text-gray-400 tracking-[0.15em] ml-0.5">MECHANICAL</p> */}
+                            <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link>
                         </span>
                         <p className="max-w-md">Your reliable partner for all HVAC and plumbing needs. We are committed to quality service and customer satisfaction.</p>
                     </div>
