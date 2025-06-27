@@ -42,7 +42,7 @@ export default function Home() {
 
                 
                 {/* className="text-brand-orange font-bold border-b-2 border-brand-orange pb-1 cursor-pointer" */}
-                <section className="w-full bg-white min-h-screen bg-no-repeat bg-[length:100%] py-5 lg:py-10 px-5 lg:px-10 relative">
+                <section className="w-full bg-white lg:min-h-screen bg-no-repeat bg-[length:100%] py-5 lg:py-10 px-5 lg:px-10 relative">
                     <div id="background-decoration-right" className="absolute top-0 right-0 h-full w-1/3 z-0 hidden">
                         <div className="h-full w-full bg-orange-400 opacity-90 clip-path-swoosh"></div>
                     </div>
@@ -61,8 +61,8 @@ export default function Home() {
                                     </div>
 
                                     <div id="slogan-banner" className="p-1 rounded-full bg-gradient-to-r from-cyan-400 to-yellow-300 shadow-lg">
-                                        <div className="bg-white rounded-full px-6 py-3">
-                                            <p className="text-center text-lg font-semibold text-gray-800">A Reliable HVAC Solution Provider That You Can Trust On</p>
+                                        <div className="bg-[#ff8904] rounded-full px-6 py-3">
+                                            <p className="text-center text-lg font-semibold  text-white">A Reliable HVAC Solution Provider That You Can Trust On</p>
                                         </div>
                                     </div>
                                     
@@ -81,8 +81,8 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div id="contact-us-banner" className="p-1 rounded-full bg-gradient-to-r from-cyan-400 to-yellow-300 shadow-lg mt-10">
-                                        <div className="bg-white rounded-full px-6 py-3">
+                                    <div id="contact-us-banner" className="rounded-full bg-gradient-to-r from-cyan-400 to-yellow-300 shadow-lg mt-10">
+                                        <div className="bg-white border border-amber-400 rounded-full px-6 py-3">
                                             <h3 className="text-center text-xl font-bold text-gray-800">Contact Us</h3>
                                         </div>
                                     </div>
@@ -94,11 +94,12 @@ export default function Home() {
                                         </div>
                                         <div className="flex items-center gap-4">
                                             <i className="text-xl text-gray-500 w-6 text-center" data-fa-i2svg=""><svg className="svg-inline--fa fa-phone" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg></i>
-                                            <span className="font-medium">647-335-3929</span>
+                                            <a href="tel:6473353929" className="font-medium">647-948-9474</a>
                                         </div>
                                         <div className="flex items-center gap-4">
                                             <i className="text-xl text-gray-500 w-6 text-center" data-fa-i2svg=""><svg className="svg-inline--fa fa-envelope" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg></i>
-                                            <span className="font-medium">sayed.zencomech@gmail.com</span>
+                                            <a href="mailto:sayed.zencomech@gmail.com" className="font-medium">sayed.zencomech@gmail.com</a>
+
                                         </div>
                                     </div>
                                 </aside>
@@ -110,66 +111,65 @@ export default function Home() {
                                         <div className="w-64 h-1.5 bg-gradient-to-r from-orange-400 to-green-500 mx-auto mt-2 rounded-full"></div>
                                     </div> */}
                                     
-                                    <div id="services-visual-cluster" className="relative h-[650px] w-full mt-10">
+                                    <div id="services-visual-cluster" className="relative lg:h-[650px] w-full mt-10">
+                                        <div id="area-of-services-banner" className="lg:absolute top-1/2 left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 z-30 px-10 py-4 rounded-full bg-gradient-to-r from-pink-400 via-red-400 to-yellow-400 shadow-xl bg-[#ff8904] mb-6 lg:mb-0">
+                                            <h3 className="text-2xl font-bold text-white whitespace-nowrap">Area Of Services</h3>
+                                        </div>
                                         {/* Main Technician Image */}
-                                        <div id="technician-image-container" className="absolute right-[5%] top-[20%] w-[400px] h-[400px] z-10">
-                                            <div className="w-full h-full rounded-full overflow-hidden shadow-2xl border-8 border-white">
+                                        <div id="technician-image-container" className="lg:absolute right-[5%] top-[20%] w-[400px] h-[400px] z-10">
+                                            <div className="w-full h-full rounded-full overflow-hidden shadow-2xl border-8 border-white mb-5 lg:mb-0">
                                                 <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/b2d4ae3561-86f289713cb29ad6cb9c.png" alt="hvac technician in a hard hat working on an outdoor air conditioning unit on a sunny rooftop, detailed shot"/>
                                             </div>
                                         </div>
 
                                         {/* Service Bubbles  */}
-                                        <div id="service-bubble-ac" className="service-bubble absolute top-[5%] left-[35%] z-20">
+                                        <div id="service-bubble-ac" className="service-bubble lg:absolute top-[5%] left-[35%] z-20 mb-5 lg:mb-0 flex lg:block items-center">
                                             <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg border-4 border-white">
                                                 <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/fce8635bae-a561ec6a115835379218.png" alt="modern white indoor air conditioner unit mounted on a wall, minimalist style"/>
                                             </div>
-                                            <span className="service-label bg-cyan-200">Air Conditioner</span>
+                                            <span className="block lg:inline service-label bg-cyan-200">Air Conditioner</span>
                                         </div>
 
-                                        <div id="service-bubble-furnace" className="service-bubble absolute top-[10%] right-[10%] z-20">
+                                        <div id="service-bubble-furnace" className="service-bubble lg:absolute top-[10%] right-[10%] z-20 mb-5 lg:mb-0 flex lg:block items-center">
                                             <div className="w-36 h-36 rounded-full overflow-hidden shadow-lg border-4 border-white">
                                                 <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/f65cee559e-a5031d85e5dbb3ca3806.png" alt="technician inspecting a modern high-efficiency gas furnace in a basement"/>
                                             </div>
-                                            <span className="service-label bg-orange-200">Furnace</span>
+                                            <span className="block lg:inline service-label bg-orange-200">Furnace</span>
                                         </div>
 
-                                        <div id="service-bubble-heatpump" className="service-bubble absolute top-[25%] left-[20%] z-0">
+                                        <div id="service-bubble-heatpump" className="service-bubble lg:absolute top-[25%] left-[20%] z-0 mb-5 lg:mb-0 flex lg:block items-center">
                                             <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg border-4 border-white">
                                                 <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/16a5dabff0-b5155cbf381d91b0ef97.png" alt="close-up of a sleek white wall-mounted heat pump unit"/>
                                             </div>
-                                            <span className="service-label bg-yellow-200">Heat Pump</span>
+                                            <span className="block lg:inline service-label bg-yellow-200 relative lg:left-4">Heat Pump</span>
                                         </div>
 
-                                        <div id="service-bubble-ductwork" className="service-bubble absolute top-1/2 left-[5%] z-0 -translate-y-1/2">
+                                        <div id="service-bubble-ductwork" className="service-bubble lg:absolute top-1/2 left-[5%] z-0 lg:-translate-y-1/2 mb-5 lg:mb-0 flex lg:block items-center">
                                             <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg border-4 border-white">
                                                 <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/0a2f58a86b-037b0abe5f8724146d77.png" alt="worker installing flexible HVAC ductwork in an attic space"/>
                                             </div>
-                                            <span className="service-label bg-cyan-200">HVAC Ductwork</span>
+                                            <span className="block lg:inline service-label bg-cyan-200">HVAC Ductwork</span>
                                         </div>
 
-                                        <div id="service-bubble-humidifier" className="service-bubble absolute bottom-[20%] left-[20%] z-20">
+                                        <div id="service-bubble-humidifier" className="service-bubble lg:absolute bottom-[20%] left-[20%] z-20 mb-5 lg:mb-0 flex lg:block items-center">
                                             <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg border-4 border-white">
                                                 <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/d2bf93464c-6ab5f41054902e08c28b.png" alt="whole-house humidifier unit connected to ductwork, clean and professional"/>
                                             </div>
-                                            <span className="service-label bg-blue-200">Humidifier</span>
+                                            <span className="block lg:inline service-label bg-blue-200">Humidifier</span>
                                         </div>
 
-                                        <div id="service-bubble-plumbing" className="service-bubble absolute bottom-[5%] left-1/2 z-20 -translate-x-1/2">
+                                        <div id="service-bubble-plumbing" className="service-bubble lg:absolute bottom-[5%] left-1/2 z-20 lg:-translate-x-1/2 mb-5 lg:mb-0 flex lg:block items-center">
                                             <div className="w-44 h-44 rounded-full overflow-hidden shadow-lg border-4 border-white">
                                             <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/786c7a302f-539a7051be5843b25590.png" alt="exposed copper and PEX plumbing pipes in a new construction wall frame"/>
                                             </div>
-                                            <span className="service-label bg-yellow-200">Plumbing</span>
+                                            <span className="block lg:inline service-label bg-yellow-200">Plumbing</span>
                                         </div>
 
-                                        <div id="service-bubble-waterheater" className="service-bubble absolute bottom-[10%] right-[5%] z-20">
+                                        <div id="service-bubble-waterheater" className="service-bubble lg:absolute bottom-[10%] right-[5%] z-20 mb-5 lg:mb-0 flex lg:block items-center">
                                             <div className="w-36 h-36 rounded-full overflow-hidden shadow-lg border-4 border-white">
                                                 <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/4665c267e8-3e6a4bf06fa61392d602.png" alt="modern tankless water heater mounted on a clean basement wall"/>
                                             </div>
-                                            <span className="service-label bg-cyan-200">Tank &amp; Tankless Water Heater</span>
-                                        </div>
-                                        
-                                        <div id="area-of-services-banner" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 px-10 py-4 rounded-full bg-gradient-to-r from-pink-400 via-red-400 to-yellow-400 shadow-xl bg-[#ff8904]">
-                                            <h3 className="text-2xl font-bold text-white whitespace-nowrap">Area Of Services</h3>
+                                            <span className="block lg:inline service-label bg-cyan-200">Tank &amp; Tankless Water Heater</span>
                                         </div>
                                     </div>
                                 </section>
@@ -222,7 +222,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section id="team-section" className="py-24 bg-gray-50">
+                {/* <section id="team-section" className="py-24 bg-gray-50">
                     <div className="container mx-auto px-6">
                         <div className="text-center mb-16">
                             <h2 className="text-4xl font-bold text-gray-800">Meet Our Professionals</h2>
@@ -250,7 +250,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </main>
 
             <footer id="footer" className="bg-gray-800 text-gray-300">
@@ -275,11 +275,11 @@ export default function Home() {
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <i className="text-orange-400" data-fa-i2svg=""><svg className="svg-inline--fa fa-phone" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg></i>
-                                    <span>647-335-3929</span>
+                                    <a href="tel:6473353929" className="font-medium">647-948-9474</a>
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <i className="text-orange-400" data-fa-i2svg=""><svg className="svg-inline--fa fa-envelope" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg></i>
-                                    <span>sayed.zencomech@gmail.com</span>
+                                    <a href="mailto:sayed.zencomech@gmail.com" className="font-medium">sayed.zencomech@gmail.com</a>
                                 </div>
                             </div>
                         </div>
