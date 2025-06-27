@@ -33,7 +33,7 @@ export default function Home() {
                 <section id="about-hero" className="relative bg-white overflow-hidden h-[450px] flex items-center">
                     <div id="hero-background-swoosh" className="absolute top-0 right-0 h-full w-2/5 bg-orange-400 opacity-90" style={{ clipPath: "ellipse(80% 100% at 100% 50%)" }}></div>
                     <div id="hero-content" className="container mx-auto px-6 z-10">
-                        <div className="max-w-xl">
+                        <div className="max-w-2xl">
                             <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">Your Trusted Partner in <span className="text-orange-500">HVAC  & PLUMBING Solutions</span></h1>
                             <p className="mt-4 text-lg text-gray-600">Learn about our journey, our commitment to quality, and the dedicated professionals who make it all happen.</p>
                         </div>
