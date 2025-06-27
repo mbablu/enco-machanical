@@ -40,23 +40,7 @@ export default function AboutUs() {
                     </div>
                 </section>
 
-                <section id="company-story" className="py-24 bg-gray-50">
-                    <div className="container mx-auto px-6">
-                        <div className="grid md:grid-cols-2 gap-12 items-center">
-                            <div id="story-image-container">
-                                <div className="rounded-xl shadow-2xl overflow-hidden">
-                                    <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/b3a0fb80db-a357bc90eb50230d0756.png" alt="a modern hvac company"/>
-                                </div>
-                            </div>
-                            <div id="story-text-content">
-                                <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Story</h2>
-                                <div className="w-32 h-1.5 bg-gradient-to-r from-orange-400 to-green-500 rounded-full mb-6"></div>
-                                <p className="text-gray-600 mb-4">Founded on the principles of reliability and unparalleled customer service, ENCO Mechanical has grown from a small team of passionate technicians to a leading HVAC and plumbing provider in the region. Our journey is one of continuous learning and adaptation, always staying ahead of industry advancements to bring you the most efficient and effective solutions.</p>
-                                <p className="text-gray-600">We believe in building lasting relationships with our clients, founded on trust and the consistent delivery of quality workmanship. Every project, big or small, is an opportunity for us to prove our commitment to excellence.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                
 
                 <section className="w-full bg-white min-h-screen bg-no-repeat bg-[length:100%] py-5 lg:py-10 px-5 lg:px-10" style={{ backgroundImage: "url('/images/bg.png')" }}>
                     <div className="max-w-[1400px] mx-auto">
@@ -70,7 +54,7 @@ export default function AboutUs() {
                                             <span className="text-green-500">E</span><span className="text-orange-500">N</span><span className="text-green-500">C</span><span className="text-orange-500">O</span>
                                         </div>
                                         <p className="text-2xl font-semibold text-gray-700 tracking-[0.2em] ml-1">MECHANICAL</p> */}
-                                        <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link>
+                                        {/* <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link> */}
                                     </div>
 
                                     <div id="slogan-banner" className="p-1 rounded-full bg-gradient-to-r from-cyan-400 to-yellow-300 shadow-lg">
@@ -118,10 +102,10 @@ export default function AboutUs() {
 
                                 {/* Right Column */}
                                 <section id="services-showcase" className="lg:col-span-8">
-                                    <div id="services-title-wrapper" className="text-center mb-8">
+                                    {/* <div id="services-title-wrapper" className="text-center mb-8">
                                         <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 tracking-wide">HVAC &amp; PLUMBING SERVICES</h1>
                                         <div className="w-64 h-1.5 bg-gradient-to-r from-orange-400 to-green-500 mx-auto mt-2 rounded-full"></div>
-                                    </div>
+                                    </div> */}
                                     
                                     <div id="services-visual-cluster" className="relative h-[650px] w-full mt-10">
                                         {/* Main Technician Image */}
@@ -186,6 +170,25 @@ export default function AboutUs() {
                                         </div>
                                     </div>
                                 </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="company-story" className="py-24 bg-gray-50">
+                    <div className="container mx-auto px-6">
+                        <div className="grid md:grid-cols-2 gap-12 items-center">
+                            <div id="story-image-container">
+                                <div className="rounded-xl shadow-2xl overflow-hidden">
+                                    <img className="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/b3a0fb80db-a357bc90eb50230d0756.png" alt="a modern hvac company"/>
+                                </div>
+                            </div>
+                            <div id="story-text-content">
+                                <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Story</h2>
+                                <div className="w-32 h-1.5 bg-gradient-to-r from-orange-400 to-green-500 rounded-full mb-6"></div>
+                                <p className="text-gray-600 mb-4">Founded on the principles of reliability and unparalleled customer service, ENCO Mechanical has grown from a small team of passionate technicians to a leading HVAC and plumbing provider in the region. Our journey is one of continuous learning and adaptation, always staying ahead of industry advancements to bring you the most efficient and effective solutions.</p>
+                                <p className="text-gray-600">We believe in building lasting relationships with our clients, founded on trust and the consistent delivery of quality workmanship. Every project, big or small, is an opportunity for us to prove our commitment to excellence.</p>
                             </div>
                         </div>
                     </div>

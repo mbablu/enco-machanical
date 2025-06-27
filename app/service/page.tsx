@@ -127,7 +127,7 @@ export default function Service() {
                         <ul className="space-y-2">
                             <li><span className="hover:text-brand-orange transition-colors cursor-pointer">About Us</span></li>
                             <li><span className="hover:text-brand-orange transition-colors cursor-pointer">Services</span></li>
-                            <li><span className="hover:text-brand-orange transition-colors cursor-pointer">Contact Us</span></li>
+                            {/* <li><span className="hover:text-brand-orange transition-colors cursor-pointer">Contact Us</span></li> */}
                             <li><span className="hover:text-brand-orange transition-colors cursor-pointer">Get a Quote</span></li>
                         </ul>
                     </div>

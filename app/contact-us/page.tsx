@@ -22,7 +22,7 @@ export default function ContactUs() {
                                     Home
                                 </Link>
                                 <Link href="/service" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer">Services</Link>
-                                <Link href="/about-us" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer">About Us</Link>
+                                {/* <Link href="/about-us" className="text-gray-600 hover:text-brand-orange font-semibold transition duration-300 cursor-pointer">About Us</Link> */}
                                 <Link href="/contact-us" className="text-brand-orange font-bold border-b-2 border-brand-orange pb-1 cursor-pointer">Contact</Link>
                             </nav>
                             <button className="md:hidden text-gray-700">
