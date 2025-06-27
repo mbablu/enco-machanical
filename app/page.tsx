@@ -34,7 +34,7 @@ export default function Home() {
                     <div id="hero-background-swoosh" className="absolute top-0 right-0 h-full w-2/5 bg-orange-400 opacity-90" style={{ clipPath: "ellipse(80% 100% at 100% 50%)" }}></div>
                     <div id="hero-content" className="container mx-auto px-6 z-10">
                         <div className="max-w-xl">
-                            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">Your Trusted Partner in <span className="text-orange-500">HVAC Solutions</span></h1>
+                            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">Your Trusted Partner in <span className="text-orange-500">HVAC  & PLUMBING Solutions</span></h1>
                             <p className="mt-4 text-lg text-gray-600">Learn about our journey, our commitment to quality, and the dedicated professionals who make it all happen.</p>
                         </div>
                     </div>
@@ -190,7 +190,7 @@ export default function Home() {
                             <div id="story-text-content">
                                 <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Story</h2>
                                 <div className="w-32 h-1.5 bg-gradient-to-r from-orange-400 to-green-500 rounded-full mb-6"></div>
-                                <p className="text-gray-600 mb-4">Founded on the principles of reliability and unparalleled customer service, ENCO Mechanical has grown from a small team of passionate technicians to a leading HVAC and plumbing provider in the region. Our journey is one of continuous learning and adaptation, always staying ahead of industry advancements to bring you the most efficient and effective solutions.</p>
+                                <p className="text-gray-600 mb-4">Founded on the principles of reliability and unparalleled customer service, Zenco Mechanical has grown from a small team of passionate technicians to a leading HVAC and plumbing provider in the region. Our journey is one of the continuous learning and adaptation, always staying ahead of industry advancements to bring you the most efficient and effective solutions.</p>
                                 <p className="text-gray-600">We believe in building lasting relationships with our clients, founded on trust and the consistent delivery of quality workmanship. Every project, big or small, is an opportunity for us to prove our commitment to excellence.</p>
                             </div>
                         </div>
