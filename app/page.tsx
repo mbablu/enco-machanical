@@ -286,10 +286,9 @@ export default function Home() {
                         <div id="footer-links">
                             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
                             <ul className="space-y-2">
-                                <li><span className="hover:text-orange-400 transition-colors cursor-pointer">Home</span></li>
-                                <li><span className="hover:text-orange-400 transition-colors cursor-pointer">About Us</span></li>
-                                <li><span className="hover:text-orange-400 transition-colors cursor-pointer">Services</span></li>
-                                <li><span className="hover:text-orange-400 transition-colors cursor-pointer">Contact</span></li>
+                                <li><Link href="/" className="hover:text-orange-400 transition-colors cursor-pointer">Home</Link></li>
+                                <li><Link href="/service" className="hover:text-orange-400 transition-colors cursor-pointer">Services</Link></li>
+                                <li><Link href="/contact-us" className="hover:text-orange-400 transition-colors cursor-pointer">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
