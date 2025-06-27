@@ -15,7 +15,7 @@ export default function Home() {
                         <p className="text-sm font-semibold text-gray-700 tracking-[0.15em] ml-0.5">MECHANICAL</p> */}
                         <Link href="/"><img className="max-h-[80px]" src="./images/logo.png" alt="logo" /></Link>
                     </div>
-                    <div id="nav-links" className="hidden md:flex items-center space-x-8">
+                    <div id="nav-links" className="flex items-center space-x-2 lg:space-x-8">
                         <Link href="/" className="text-brand-orange font-bold border-b-2 border-brand-orange pb-1 cursor-pointer">
                             Home
                         </Link>
